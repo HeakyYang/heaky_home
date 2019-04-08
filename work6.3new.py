@@ -6,7 +6,7 @@ Date:2019-4-5
 '''
 
 import csv
-#读aapl.csv文件并打印
+#读aapl.csv文件并打印,该文件已在默认文件夹里
 a=[]
 with open("aapl.csv","r") as csvfile:
     reader = csv.reader(csvfile)
